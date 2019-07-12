@@ -1,0 +1,26 @@
+canvas {
+  position: relative;
+  display: block;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  margin: 5px auto;
+}
+
+.start-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 35px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+}
+
+.score-card {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  color: white;
+  font-size: 35px;
+  transform: translate(-50%, 0);
+}

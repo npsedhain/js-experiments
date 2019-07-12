@@ -1,0 +1,10 @@
+#app {
+  background: grey;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid white;
+}
